@@ -60,7 +60,7 @@ def get_contour_center(contour):
     return cx, cy
 
 def main():
-    image_name = "/home/viki/catkin_ws/src/ros_essentials_cpp/src/topic03_perception/images/tennisball05.jpg"
+    image_name = "/home/viki/catkin_ws/src/opencv_tutorials/scripts/images/tennisball05.jpg"
     yellowLower =(30, 150, 100)
     yellowUpper = (50, 255, 255)
     rgb_image = read_rgb_image(image_name, True)
